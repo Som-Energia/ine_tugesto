@@ -1,2 +1,2 @@
-name = "ine_tugesto_somenergia"
+from ine_maping_tugesto import INEMapingTugesto
 
