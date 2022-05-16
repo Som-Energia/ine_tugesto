@@ -45,8 +45,6 @@ class INEMapingTugesto():
 
     def get_tugesto_id(self, city_name, county_id=None, ine_code=None):
 
-        import pudb; pu.db
-
         tg_ids, res = [], None
         assert city_name and type(city_name) in (str, unicode), 'The type of the provided city_name is not allowed'
 
